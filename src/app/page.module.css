@@ -23,15 +23,7 @@
   font-weight: 300;
 }
 
-.button {
-  background-color: #53c28b;
-  width: max-content;
-  padding: 20px;
-  cursor: pointer;
-  border: none;
-  border-radius: 5px;
-  color: white;
-}
+
 
 .images {
   width: 100%;
