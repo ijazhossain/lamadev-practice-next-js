@@ -1,0 +1,36 @@
+.upperContainer {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.desc {
+    font-size: 18px;
+    color: #999;
+}
+
+.content {
+    flex: 1;
+}
+
+.imgContainer {
+    flex: 1;
+    height: 300px;
+    position: relative;
+}
+
+.image {
+    object-fit: contain;
+}
+
+.lowerContainer {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    font-size: 18px;
+    color: #999;
+}

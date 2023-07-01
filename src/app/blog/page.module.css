@@ -1,1 +1,28 @@
-.container {}
+.mainContainer {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.image {
+    object-fit: cover;
+}
+
+.content {
+    flex: 1;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.desc {
+    font-size: 18px;
+    color: #999;
+}
