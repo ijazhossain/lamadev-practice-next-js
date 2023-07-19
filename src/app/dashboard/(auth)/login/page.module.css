@@ -1,1 +1,32 @@
-.container {}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #bbb;
+}
+
+.button {
+    width: 300px;
+    background-color: #53c28b;
+    padding: 20px;
+    color: #eee;
+    border-radius: 5px;
+}

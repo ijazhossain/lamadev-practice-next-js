@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server"
 
 import Post from "@/models/Post"
-import connect from "@/app/utils/db"
+import connect from "@/utils/db"
 export const GET = async (request, { params }) => {
     const { id } = params;
     try {
